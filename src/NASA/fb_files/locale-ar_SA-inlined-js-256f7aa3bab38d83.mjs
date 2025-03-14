@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([["66921"],{987405:function(_,n,r){var o={locale:"ar-SA",i18nStrings:void 0,plural:r(507586)};_.exports=o},507586:function(_){_.exports=function(_){return 0==+_?0:1==_?1:2==_?2:_%100>=3&&_%100<=10?3:_%100>=11?4:5}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-ar_SA-inlined-js-256f7aa3bab38d83.mjs.map

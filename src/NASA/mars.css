@@ -1,0 +1,190 @@
+.body-mars {
+    background-image: url('/src/NASA/mf1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+}
+
+.header-mars
+{
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 6px rgba(6, 14, 45, 0.3);
+    font-size: 1rem;
+}
+
+.mars-header-bg
+{
+        position: absolute;
+        inset: 0;
+        background-image: url('/src/NASA/hm1.jpg');
+        background-size: cover ; 
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        z-index: -1;
+}
+
+.mars-title
+{
+    font-size: 2rem;
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+    color: #c26a2c;
+    margin-top: 15px;
+    padding-left: 110px;
+    font-weight: bold;
+}
+
+.mars-container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.mars-card
+{
+    width: 85%;
+    max-width: 1200px;
+    background: rgba(10, 15, 30, 0.95);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 25px rgba(234, 155, 46, 0.4);
+    margin: 50px auto;
+}
+
+.mars-up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.mars-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.mars-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.mars-control-group {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 10px; 
+    width: 100%;
+}
+
+.mars-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mars-label {
+    font-size: 1.2rem;
+    color: #c26a2c;
+    text-shadow: 0 0 15px rgba(155, 138, 118, 0.4);
+    text-align: left; 
+    white-space: nowrap; 
+    margin-right: 5px;
+}
+
+ .mars-select , .mars-button , .mars-date-picker
+ {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #453f38, #deb67a);
+    color: #e6dac7;
+    box-shadow: 0 0 20px rgba(111, 86, 42, 0.6);
+}
+
+.mars-date-picker {
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+ .mars-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(132, 120, 95, 0.8);
+  }
+
+  .mars-no {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: #c26a2c;
+    text-shadow: 0 0 15px rgba(155, 138, 118, 0.4);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.mars-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.mars-pagination button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #453f38, #deb67a);
+    color: #e6dac7;
+    box-shadow: 0 0 20px rgba(111, 86, 42, 0.6);
+}
+
+.mars-pagination button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.mars-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.mars-photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+    width: 100%;
+}
+
+.left-photo img,
+.right-photo img {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
